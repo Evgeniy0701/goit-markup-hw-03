@@ -53,6 +53,7 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: center;
 }
 
 .header-logo-link link {
@@ -99,12 +100,6 @@ ul {
 .header-logo-link {
   margin-right: 76px;
 }
-
-
-
-
-
-
 
 /*---------Meny Nav-------------------*/
 .header-navigation .list {
@@ -838,6 +833,16 @@ ul {
 }
 
 /*---------------------PHOTO SECTION-------------------*/
+.cards-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.name-photo {
+  margin-bottom: 8px;
+}
+
 
 .name {
   background: #fff;
