@@ -117,9 +117,6 @@ ul {
   margin-right: 0;
 }
 
-
-
-
 .header-navigation {
   display: flex;
   align-items: center;
@@ -225,11 +222,6 @@ ul {
 .list-address-menu {
   align-items: center;
 }
-
-
-
-
-
 
 .header-addres-list {
   color:  #434455;
@@ -352,16 +344,6 @@ ul {
 .features-item:last-child {
   margin-right: 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -833,11 +815,9 @@ ul {
 }
 
 /*---------------------PHOTO SECTION-------------------*/
-.name-item-list {
-  width: calc((100% - 48px) / 3);
-  padding: 8px;
+.name-item-list{
+   width: calc((100% - 48px) /3);
 }
-
 .cards-container{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
