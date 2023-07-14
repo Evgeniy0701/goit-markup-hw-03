@@ -87,6 +87,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px
 }
 
 .header-logo-link {
@@ -124,9 +125,6 @@ img {
   gap: 40px;
   align-items: center;
 }
-.link-menu {
-  padding: 24px 0;
-}
 
 .link-menu {
   list-style: none;
@@ -137,6 +135,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   align-items: center;
+  padding: 24px 0;
 }
 
 .link:hover,
@@ -192,6 +191,7 @@ img {
   gap: 40px;
   list-style: none;
   padding: 0;
+  align-items: center;
 }
 
 .header-addres-list li {
@@ -202,21 +202,7 @@ img {
   margin-right: 0;
 }
 
-.header-address-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-
-.header-address-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
 .header-addres {
-  align-items: center;
-}
-.list-address-menu {
   align-items: center;
 }
 
@@ -236,6 +222,7 @@ img {
 
 .header-addres {
   font-style: normal;
+  align-items: center;
 }
 
 .list-address-menu :focus {
@@ -254,6 +241,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  align-items: center;
 }
 
 /*------------------ SECTION 1 CAP-----------------*/
@@ -394,6 +382,7 @@ img {
 
 .wedo {
   padding-bottom: 120px;
+  background: #fff;
 }
 
 .wedo-title {
@@ -415,9 +404,6 @@ img {
   margin-right: 0;
 }
 
-.wedo {
-  background: #fff;
-}
 .wedo-title {
   color: #2e2f42;
   text-align: center;
@@ -632,11 +618,6 @@ img {
   padding-bottom: 120px; 
 }
 
-.list {
-  display: grid;
-  gap: 24px;
-}
-
 .section-menu-item {
   margin-right: 24px;
 }
@@ -645,15 +626,13 @@ img {
   margin-right: 0;
 }
 
-.list {
+.list-cards {
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
+  column-gap: 24px;
   list-style: none;
-  padding: 0;
   row-gap: 48px;
   flex-wrap: wrap;
+   width: calc((100% - 48px) / 3);
 }
 .section-menu-link {
   padding: 12px 24px;
@@ -686,10 +665,6 @@ img {
   color: var(--text-color);
 }
 
-.list {
-  font-family: "Roboto", sans-serif;
-}
-
 .section-menu-link {
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -716,14 +691,10 @@ img {
 }
 
 /*---------------------PHOTO SECTION-------------------*/
-.name-item-list:first-child {
+.name-item-list {
    width: calc((100% - 48px) /3);
 }
-.cards-container{
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+
 .name-photo {
   margin-bottom: 8px;
 }
@@ -779,4 +750,5 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
