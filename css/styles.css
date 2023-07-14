@@ -329,8 +329,6 @@ img {
   gap: 24px;
 }
 
-
-
 .features-item {
   margin-right: 24px;
 }
@@ -339,7 +337,7 @@ img {
   margin-right: 0;
 }
 
-.features-item {
+.features-iteam {
   width: calc((100% - 72px) / 4);
 }
 
@@ -682,10 +680,12 @@ img {
 /*---------------------PHOTO SECTION-------------------*/
 .name-item-list {
   width: calc((100% - 48px) /3);
+  
+}
+.list-cards {
   justify-content: center;
   margin-bottom: 72px
 }
-
 .name-photo {
   margin-bottom: 8px;
 }
