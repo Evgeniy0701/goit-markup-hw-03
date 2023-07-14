@@ -47,13 +47,11 @@ img {
   align-items: center;
   
 }
-
+.header-addres {
+  margin-left: auto;
+}
 .header-container {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  align-items: center;
 }
 
 .header-logo-link link {
@@ -105,11 +103,6 @@ img {
   list-style: none;
   padding: 0;
 }
-
-.header-navigation .list li {
-  margin-right: 40px;
-}
-
 
 .header-navigation .list li:last-child {
   margin-right: 0;
@@ -194,10 +187,6 @@ img {
   align-items: center;
 }
 
-.header-addres-list li {
-  margin-right: 40px;
-}
-
 .header-addres-list li:last-child {
   margin-right: 0;
 }
@@ -245,9 +234,7 @@ img {
 }
 
 /*------------------ SECTION 1 CAP-----------------*/
-.cap-container {
-  padding: 188px 0;
-}
+
 
 .here {
   background: var(--navyblue, #2E2F42);
@@ -379,11 +366,9 @@ img {
   padding-bottom: 120px;
   background: #fff;
 }
-
-.wedo-title {
+.made-titl {
   margin-bottom: 72px;
 }
-
 .wedo-list {
   display: flex;
   gap: 24px;
@@ -467,15 +452,8 @@ img {
   padding: 120px 0;
 }
 
-.made-title {
-  margin-bottom: 72px;
-}
-
 .made-name {
   margin-bottom: 8px;
-}
-.made-text {
-  text-align: center;
 }
 
 .made-list {
@@ -547,6 +525,7 @@ img {
 /*--------------FOOTER---------------------------*/
 .footer {
   background: var(--navyblue, #2e2f42);
+  padding: 100px 0;
 }
 .footer-logo span {
   color: #f4f4fd;
@@ -577,10 +556,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-
-.footer {
-  padding: 100px 0;
 }
 
 .footer-logo-link {
