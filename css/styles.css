@@ -234,14 +234,12 @@ img {
 }
 
 /*------------------ SECTION 1 CAP-----------------*/
-
-
 .here {
   background: var(--navyblue, #2E2F42);
   padding-top: 188px;
   padding-bottom: 188px;
+  
 }
-
 
 .here-title {
   color: #fff;
@@ -253,8 +251,6 @@ img {
   letter-spacing: 1.12px;
   max-width: 496px;
   margin-bottom: 48px;
-  
-
 }
 
 .here-btn {
@@ -601,8 +597,11 @@ img {
     border: 1px solid transparent;
 }   
   
-.list {
+.list-cap {
   justify-content: center;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 72px
 }
 .main-section {
   background: #fff;
