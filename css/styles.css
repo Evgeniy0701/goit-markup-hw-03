@@ -563,6 +563,7 @@ img {
 }
 
 /*-----------------------CAP SECTION ------------------*/
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -646,6 +647,11 @@ img {
 
 .section-menu-item {
   background: #f4f4fd;
+}
+
+.cards-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 /*---------------------PHOTO SECTION-------------------*/
