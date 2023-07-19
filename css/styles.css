@@ -408,6 +408,8 @@ img {
   border-top-right-radius: 0px; 
   border-top-right-radius: 4px; 
   border-bottom-left-radius:4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .employee-info {
