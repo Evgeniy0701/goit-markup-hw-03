@@ -238,6 +238,7 @@ img {
   background: var(--navyblue, #2E2F42);
   padding-top: 188px;
   padding-bottom: 188px;
+  text-align: center
   
 }
 
@@ -251,6 +252,7 @@ img {
   letter-spacing: 1.12px;
   max-width: 496px;
   margin-bottom: 48px;
+  text-align: center
 }
 
 .here-btn {
@@ -690,9 +692,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--paragraph-color, #434455);
 }
-.cards-container {
- 
-}
+
 /*------------FOOTER PORTFOLIO-------------- */
 .footer {
   background: var(--navyblue, #2e2f42);
