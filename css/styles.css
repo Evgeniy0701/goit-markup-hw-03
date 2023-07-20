@@ -388,19 +388,15 @@ img {
 }
 /*------------------ SECTION 4 TEAM-------------------------*/
 
-.made-title {
-  margin-bottom: 72px;
-  text-align: center;
-
-}
-
 .made-list {
-  display: flex;
-  gap: 24px;
   border-top-left-radius: 0px; 
   border-top-right-radius: 0px; 
   border-top-right-radius: 4px; 
   border-bottom-left-radius:4px;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
 }
 
 .made-idem {
@@ -408,8 +404,6 @@ img {
   border-top-right-radius: 0px; 
   border-top-right-radius: 4px; 
   border-bottom-left-radius:4px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .employee-info {
@@ -427,13 +421,6 @@ img {
 
 .made-name {
   margin-bottom: 8px;
-}
-
-.made-list {
-  display: flex;
-  gap: 24px;
-  list-style: none;
-  padding: 0;
 }
 
 .made-item:last-child {
@@ -458,6 +445,8 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .made-list li {
